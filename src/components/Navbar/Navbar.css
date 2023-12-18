@@ -1,0 +1,38 @@
+.navbarContainer {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.navbarTitle {
+  font-size: 30px;
+  font-weight: 700;
+  color: #000000;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100px;
+  width: 100%;
+}
+.navbarMenue {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.navbarItem {
+  font-size: 20px;
+  font-weight: 700;
+  color: #000000;
+  height: 100%;
+  width: 300px;
+}
+.navbarItem input {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}

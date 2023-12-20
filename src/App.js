@@ -6,25 +6,18 @@ import Map from './components/Map/Map';
 import { useState } from 'react';
 
 function App() {
-  const [place, setPlace] = useState("");
+  const [lnglat, setLnglat] = useState([36, 140]);
   const [value, setValue] = useState("");
   return (
     <div className="App">
-      {place  ? (
+      {value  ? (
         <>
-          <NameCard {...{ place, setPlace }}/>
-          <Forecast {...{ place }}/>
+          <Forecast {...{ lnglat }}/>
         </>
       ) : (
-        // <Navbar {
-        //   ...{
-        //     place,
-        //     setPlace,
-        //     value,
-        //     setValue
-        //   }
-        // }/>
-        <Map />
+        <Map 
+          {...{ lnglat, setLnglat, value, setValue }}
+        />
       )
       }
     </div>

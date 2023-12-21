@@ -10,7 +10,7 @@ function Forecast({ lnglat }) {
 }
 
 const getForecast = async (lng, lat) => {
-  const token = "6116e3cf85764a525430182fca9ddfc2"
+  const token = 
   console.log(lng, lat)
   const url = `https://api.openweathermap.org/data/2.5/forecast?lat=${lat}&lon=${lng}&appid=${token}`
   console.log(url)

@@ -1,4 +1,4 @@
-<img src="icon.png" align="right" width="50%" />
+<img src="icon.png" align="right" />
 
 # TLDL
 

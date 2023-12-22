@@ -8,13 +8,10 @@
 }
 
 .cardName {
-    font-size: 40px;
+    font-size: 100px;
     font-weight: bold;
-    height: 100px;
-    width: 200px;
+    height: 200px;
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: rgb(236, 236, 236);
-    border-radius: 50px;
 }

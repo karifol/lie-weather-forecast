@@ -1,10 +1,10 @@
 import React from 'react'
 import './NameCard.css'
 
-function NameCard({ place, setPlace }) {
+function NameCard({ name }) {
   return (
     <div className='cardName-container'>
-      <div className='cardName'>{place}</div>
+      <div className='cardName'>{name}</div>
     </div>
   )
 }

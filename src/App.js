@@ -6,7 +6,7 @@ import Map from './components/Map/Map';
 import { useState } from 'react';
 
 function App() {
-  const [lnglat, setLnglat] = useState([36, 140]);
+  const [lnglat, setLnglat] = useState([130, 35]);
   const [value, setValue] = useState("");
   return (
     <div className="App">

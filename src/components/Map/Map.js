@@ -1,9 +1,10 @@
-import React, { useEffect } from 'react';
+import React, { useEffect, useState } from 'react';
 import mapboxgl from 'mapbox-gl';
 import "./Map.css"
 import 'mapbox-gl/dist/mapbox-gl.css';
+import Probability from '../Probability/Probability';
 
-function Map( { lnglat, setLnglat, value, setValue }) {
+function Map( { lnglat, setLnglat, value, setValue, probability }) {
   useEffect(() => {
     mapboxgl.accessToken = 'pk.eyJ1Ijoia2FpdG8wNTAyIiwiYSI6ImNsNmRiZG42aTI2dzkzZW8xYnh6MjZ0ZTIifQ.x92zPsPkjOTIZTmLY-j4vA';
 
@@ -40,6 +41,7 @@ function Map( { lnglat, setLnglat, value, setValue }) {
   return (
     <>
       <div className="title">噓をつく天気予報</div>
+      <Probability {...{ probability }}/>
       <div className='info'>
         <div className='latlng'>緯度：</div>
         <div className='latlng'>経度：</div>

@@ -6,15 +6,16 @@ import { useState } from 'react';
 function App() {
   const [lnglat, setLnglat] = useState([130, 35]);
   const [value, setValue] = useState("");
+  const [probability, setProbability] = useState(30);
   return (
     <div className="App">
       {value  ? (
         <>
-          <Forecast {...{ lnglat }}/>
+          <Forecast {...{ lnglat, probability }}/>
         </>
       ) : (
         <Map 
-          {...{ lnglat, setLnglat, value, setValue }}
+          {...{ lnglat, setLnglat, value, setValue, probability }}
         />
       )
       }

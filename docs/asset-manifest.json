@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/lie-weather-forecast/static/css/main.a0e8830a.css",
+    "main.css": "/lie-weather-forecast/static/css/main.c51efab0.css",
     "main.js": "/lie-weather-forecast/static/js/main.7b38c783.js",
     "index.html": "/lie-weather-forecast/index.html",
-    "main.a0e8830a.css.map": "/lie-weather-forecast/static/css/main.a0e8830a.css.map",
+    "main.c51efab0.css.map": "/lie-weather-forecast/static/css/main.c51efab0.css.map",
     "main.7b38c783.js.map": "/lie-weather-forecast/static/js/main.7b38c783.js.map"
   },
   "entrypoints": [
-    "static/css/main.a0e8830a.css",
+    "static/css/main.c51efab0.css",
     "static/js/main.7b38c783.js"
   ]
 }
